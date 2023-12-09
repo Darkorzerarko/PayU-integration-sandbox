@@ -12,12 +12,12 @@ export default function Home() {
         // mode: "no-cors",
         body: JSON.stringify({
           grant_type: "client_credentials",
-          client_id: '474062',
-          client_secret: "fda5d2f24c47594c1ec6ceda7b782388"
+          client_id: '474202',
+          client_secret: "019b6d21aa88e9141b8810cb4a2efdd6"
         }),
         headers: {
           "content-type": "application/x-www-form-urlencoded",
-          "access-control-allow-origin": "http://localhost:3000"
+          // "access-control-allow-origin": "http://localhost:3000"
         },
       }
     )
