@@ -16,7 +16,7 @@ export default function Home() {
           client_secret: "ea9084d89e60ff23e2913fe5afcdde81"
         }),
         headers: {
-          // "content-type": "application/x-www-form-urlencoded",
+          "content-type": "application/x-www-form-urlencoded",
         },
       }
     )
