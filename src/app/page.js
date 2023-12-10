@@ -21,7 +21,7 @@ export default function Home() {
     <main className={styles.main}>
       <button onClick={handleClick}>click me</button>
 
-      {authData? <div>Acces Token: {authData.data.access_token}</div>: null}
+      {authData? <div>Access Token: {authData.data.access_token}</div>: null}
       
     </main>
   )
