@@ -1,23 +1,22 @@
 "use client"
 import styles from './page.module.scss'
-import { useState } from 'react'
+// import { useState } from 'react'
 
 export default function Home() {
 
-  const [response, setResponse] = useState('');
+  // const [response, setResponse] = useState('');
 
-  const handleClick = ()=>{
+  const  handleClick = ()=>{
     fetch("https://secure.snd.payu.com/pl/standard/user/oauth/authorize", {
         method: "POST",
         // mode: "no-cors",
         body: JSON.stringify({
           grant_type: "client_credentials",
-          client_id: '474202',
-          client_secret: "019b6d21aa88e9141b8810cb4a2efdd6"
+          client_id: '474204',
+          client_secret: "ea9084d89e60ff23e2913fe5afcdde81"
         }),
         headers: {
-          "content-type": "application/x-www-form-urlencoded",
-          // "access-control-allow-origin": "http://localhost:3000"
+          // "content-type": "application/x-www-form-urlencoded",
         },
       }
     )
